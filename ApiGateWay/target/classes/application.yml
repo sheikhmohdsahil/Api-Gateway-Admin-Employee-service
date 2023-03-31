@@ -1,0 +1,13 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: adminService
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/admin/**
+        - id: employeeService
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/employee/**
