@@ -1,0 +1,6 @@
+spring:
+  mail:
+    host: smtp-relay.sendinblue.com
+    username: sheikhmohdsahil6@gmail.com
+    password: gEkz9hcF6qpwMnNr
+    port: 587
